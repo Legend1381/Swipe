@@ -403,3 +403,20 @@ main {
     max-width: 470px;
     border-radius: 20px;
 }
+
+/* Why Swipe Section*/
+.why-swipe-section .card-container {
+    display: flex;
+    margin: var(--spacing-xl) 0;
+}
+
+.why-swipe-section .card-container .card {
+    width: 25%;
+    padding: 0 var(--spacing-sm);
+    margin: 0 var(--spacing-sm);
+    box-sizing: border-box;
+}
+
+.why-swipe-section .secondary-text {
+    color: var(--text-dark);
+}
